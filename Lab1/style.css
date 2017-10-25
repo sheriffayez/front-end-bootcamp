@@ -1,0 +1,148 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:  'Open Sans', sans-serif;
+	font-weight: normal;
+	background-color: #f9fafc;
+	height: 100%;
+	font-size: 20px;
+	width: 100%;
+	overflow-x:hidden;
+}
+
+header{
+	text-align: right;
+	display: inline;
+	text-decoration:none;
+	list-style: none;
+	font-family:  'Open Sans', sans-serif;
+	color:#69696a;
+}
+h3{
+	float: left;
+	margin: 0;
+	padding-left: 80px;
+	color: black;
+	display: inline-block;
+}
+
+#nav{
+	color: #f9fafc;
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	text-align: right;
+}
+
+#nav > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	font-size: 20px;
+}
+
+#nav > li > a {
+	text-decoration:none;
+	color: #69696a;
+	text-align: right;
+	display: inline-block;
+}
+
+h1{
+	padding-top: 150px;
+	padding-left: 80px;
+	right: 63%;
+	left: 4%;
+	font-style: normal;
+	font-size: 35px;
+
+}
+p{
+	color: #69696a;
+	border-left: 3px solid;
+	padding-left: 20px;
+	position: absolute;
+	right: 63%;
+	left:4%;
+	font-size: 20px;
+}
+#button{
+	border-radius: 20px;
+	background-color: black;
+	padding: 10px 30px;
+	color: white;
+
+}
+
+#button2{
+	border-radius: 20px;
+	background-color: black;
+	padding: 10px 30px;
+	color: #69696a;
+	font-family: 'open sans';
+	font-size:16px;
+	text-align: center;
+	color: white;
+}
+
+#circle1{
+	width: 350px;
+	height: 350px;
+	line-height: 100px;
+	border-radius: 100%;
+	background-color: rgba(247, 193, 162, 0.7);
+	top: 40%;
+	bottom: 0;
+	left: auto;
+	right: 70px;
+	position: absolute;
+	z-index: 1;
+
+}
+
+#circle2{
+	width: 300px;
+	height: 300px;
+	line-height: 100px;
+	border-radius: 100%;
+	background-color: rgba(207, 130, 213, 0.6);
+	top: 23%;
+	bottom: 0;
+	left: auto;
+	right:150px;
+	position: absolute;
+	z-index: 2
+	
+}
+
+#circle3{
+
+	background-color:rgba(247, 136, 167, 0.6);
+    width: 500px;
+	height: 500px;
+	line-height: 100px;
+	border-radius: 100%;
+	top:30%;
+	bottom: 0;
+	left: auto;
+	right:350px;
+	position: absolute;
+}
+footer{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+@media (max-width: 1000px) {
+header nav{
+	background-color: lightgrey;
+}
+}
+@media (max-width: 600px){
+header nav ul li, header nav ul a {
+ color: white;
+ float: none;
+ text-align: center;
+ width: 100%;
+ }
+}
