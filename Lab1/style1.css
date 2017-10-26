@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:  'open sans', sans-serif;
+	font-weight: normal;
+	background-color: white;
+	height: 100%;
+	font-size: 20px;
+	width: 100%;
+	overflow-x:hidden;
+}
+
+header{
+	text-decoration:none;
+	list-style: none;
+	font-family:'open sans', sans-serif;
+	color:black;
+}
+
+p{
+	color: #69696a;
+	justify-content: center;
+	margin: 15px;
+	padding: 18px;
+	border-left: 3px solid;
+	font-size: 20px;
+}
+
+h1{
+	font-family:'open sans', sans-serif;
+    font-size: 25px;
+    padding-left: 15px;
+    
+
+
+}
+
+h3{
+	margin:15px;
+	font-weight: normal;
+	font-size: 20px;
+	color: black;
+}
+
+.topnav{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    /*flex-direction: row;*/
+    
+ }
+
+#nav{
+	display: flex;
+	width: 95%;
+	color: #f9fafc;
+	flex-direction: column;
+	padding: -10px ;
+	/*justify-content: flex-start;*/
+	/*justify-content: space-between;*/
+
+}
+
+#nav > li {
+	font-size: 20px;
+	/*justify-content: space-between;*/
+	
+}
+
+#nav > li > a {
+	text-decoration:none;
+	color: #69696a;	
+	/*justify-content: space-around;*/s
+	padding-left: -20px;
+	
+}
+
+#button{
+	border-radius: 20px;
+	border-color: black;
+	background-color: black;
+	font-size: 16px;
+	padding: 10px 30px;
+	color: white;
+	text-align: center;
+	font-family: 'open sans';
+	width: 95%;
+}
+
+#button2{
+	border-radius: 20px;
+	border-color: black;
+	background-color: black;
+	padding: 10px 30px;
+	color: white;
+	font-family: 'open sans';
+	font-size:16px;
+	text-align: center;
+	justify-content: center;
+	width: 95%;
+}
